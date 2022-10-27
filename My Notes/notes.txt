@@ -95,3 +95,44 @@ setTimeout(escrever, 3000);    executa apenas uma vez, mas com um delay
 var  global
 let local
 dentro de funções mesmo a var é local
+
+#array
+
+adicinar ao final:
+
+array.push
+tamanho: lenght
+ordena: .sort() strings
+
+Pra ordenar de números não funciona, método alternativo:
+
+array.sort(function(a,b) {return a-b;});
+
+
+deletando: delede array[indice]  //undefined
+
+splice deleta vários elementos
+array.splice(3,1)  #a partir do elemento 3 delete 1, não fica undefined, forma recomendada
+
+splice pode adicionar elementos
+
+array.splice(3,0,56,89) //a partir do indice 3 não delete nenhum, mas add 56 e 89
+
+pop remove elementos do final do array
+remove e retorna o elemento*
+
+var any = array.pop();
+console.log(any)
+
+array.shift()
+remove e retorna o primeiro elemento de u array
+
+array.unshift add elemento no inicio do array
+
+array.unshift(99)
+
+slice retorna um novo array a partir do índice informado
+
+var novo = array.slice(1, 3)  retorna novo array a partir 1 até indice 3
+
+array.concat(array2)   //concatena 2 arrays
