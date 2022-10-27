@@ -62,4 +62,36 @@ ps. sempre retornar um boolean
 
 # operadores aritméticos
 
+peculiaridades
+console.log(0.1 + 0.7)   0.7999
+console.log("42" / 2)    21
 
+# Operador unário e ternário
+var sexo = 'm';
+console.log(sexo === 'm' ? 'Masculino' : 'Feminino');
+
+#intro a funções
+
+function somar (num1, num2){
+    var res = num1 + num2;
+
+    return res;
+}
+
+#intervalos e timeout
+
+function escrever(){
+    console.log('Geek');
+}
+
+setInterval(escrever,1000); //1segundo
+
+informa o nome da função apenas
+
+setTimeout(escrever, 3000);    executa apenas uma vez, mas com um delay
+
+#Escopo de variáveis
+
+var  global
+let local
+dentro de funções mesmo a var é local
