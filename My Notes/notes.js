@@ -40,3 +40,5 @@ cursos.forEach(print)
 //usando lambda
 
 cursos.forEach(function(curso,indice){console.log(`${indice} - ${curso}`)})
+
+
