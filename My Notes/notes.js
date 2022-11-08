@@ -138,3 +138,44 @@ function preco_maior_que_4(valor){
 
 ret = precos.filter(element => element > 4).map(element => element + 5).reduce((anterior,atual) => {return (anterior / 2) + atual});
 console.log(ret);
+
+
+//Destructuring 
+
+//array
+
+const numeros = [1, 2, 3, 4];
+
+const [num1, , num3, num4] = numeros; //descartando valores
+
+// console.log(num1);
+// console.log(num3);
+// console.log(num4);
+
+//setando valores default caso não haja no container
+
+const [n1, n2, n3, n4 = 38, n5 = 99,n6 = 'True', n7] = numeros;
+
+console.log(n1)
+console.log(n2)
+console.log(n3)
+console.log(n4)
+console.log(n5)
+console.log(n6)
+console.log(n7)
+
+//objeto
+
+const produto = {
+    nome: "pc gamer",
+    preco: 1678.44
+}
+
+const {nome, preco} = produto;
+
+console.log(nome);
+console.log(preco);
+
+//Destructuring extrai dados dos containers para as variáveis
+
+
