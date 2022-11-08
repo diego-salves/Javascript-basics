@@ -139,3 +139,4 @@ array.concat(array2)   //concatena 2 arrays
 
 REDUCE = Reduz a um único valor, normalmente usado com o map
 
+HOISTING = Iça a variável caso seja declarada como var 
