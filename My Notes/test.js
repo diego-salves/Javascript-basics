@@ -40,3 +40,10 @@ console.log(precos)
 var resultado2 = precos.map(adicionar_taxa).reduce(divide_por_2);
 
 console.log(resultado2)
+
+function preco_maior_que_4(valor){
+    return valor > 4;
+}
+
+ret = precos.filter(element => element > 4).map(element => element + 5).reduce((anterior,atual) => {return (anterior / 2) + atual});
+console.log(ret);
