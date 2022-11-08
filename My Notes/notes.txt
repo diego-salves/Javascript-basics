@@ -143,3 +143,4 @@ HOISTING = Iça a variável caso seja declarada como var
 
 DESTRUCTURING =  extrai dados dos containers para as variáveis
 
+TRY CATCH = mesmo que no python

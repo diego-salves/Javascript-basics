@@ -178,4 +178,38 @@ console.log(preco);
 
 //Destructuring extrai dados dos containers para as variáveis
 
+//Try Catch
+
+/*
+try {
+    try_statements
+ }
+ [catch (exception_var_1 if condition_1) {
+    catch_statements_1
+ }]
+ ...
+ [catch (exception_var_2) {
+    catch_statements_2
+ }]
+ [finally {
+    finally_statements
+ }]
+*/
+
+
+var i = 0;
+var nome = "Diego"
+
+try {
+    console.log(nome);
+} catch(e) {
+    console.log(e.name);
+    console.log(e.message);
+} finally { // sempre é executado
+    i++
+}
+
+console.log(i)
+
+//throw para lançar um erro
 
