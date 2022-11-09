@@ -147,3 +147,5 @@ TRY CATCH = mesmo que no python
 
 CALLBACK = Passa função como parametro para outra função que irá executar esta função mediante um evento(pode ser algo como loop do forEach)
 
+FUNÇÂO CONSTRUTORA = Classe com nome de function - não usar!
+
