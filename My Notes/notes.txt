@@ -149,3 +149,20 @@ CALLBACK = Passa função como parametro para outra função que irá executar e
 
 FUNÇÂO CONSTRUTORA = Classe com nome de function - não usar!
 
+FUNÇÃO CLOSURE = contexto léxico de uma função, escopo
+
+FUNCTION FACTORY/FUNÇÃO FÁBRICA = ao ser executada devolve um objeto
+
+function Nome(a,b):
+    return {
+        nome: a,
+        preco: b
+    }
+
+****************************************************************************************************************************************
+
+ORIENTAÇÃO A OBJETOS 
+
+****************************************************************************************************************************************
+
+
