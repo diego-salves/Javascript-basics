@@ -166,5 +166,11 @@ ORIENTAÇÃO A OBJETOS
 ****************************************************************************************************************************************
 
 
+Criando classes = class Name {}
+
+Atributos = método construtor = constructor(atributo1, atributo2)
+
+
+
 
 
