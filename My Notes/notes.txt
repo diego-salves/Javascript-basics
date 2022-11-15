@@ -175,4 +175,3 @@ em JS todos os atributos são públicos, sendo possível acessá-los fora das cl
 getter / setters 
 
 getter retornam valores de atributos, setters setam valores
-
