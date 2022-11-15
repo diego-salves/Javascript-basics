@@ -1,28 +1,15 @@
-class Moci{
-    constructor(name, cor){
-        this._name = name;
-        this._cor = cor;
-    }
+const curso = new Object();
 
-    get name(){
-        return this._name;
-    }
+console.log(curso)
 
-    set name(name){
-        this._name = name;
-    }
+console.log(typeof(curso))
 
-    get cor(){
-        return this._cor;
-    }
+curso['oi'] = 'curso 1'
 
-    set cor(cor){
-        this._cor = cor;
-    }
+curso.nome = 'Diego'
 
-    falar(msg){
-        console.log($`${this._name} está falando ${msg}, sua cor é ${cor}`)
-    }
+console.log(curso)
 
-}
+delete curso['nome']
 
+console.log(curso)
