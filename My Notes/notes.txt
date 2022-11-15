@@ -172,4 +172,7 @@ Atributos = método construtor = constructor(atributo1, atributo2)
 
 em JS todos os atributos são públicos, sendo possível acessá-los fora das classes
 
+getter / setters 
+
+getter retornam valores de atributos, setters setam valores
 
