@@ -1,0 +1,1 @@
+# Pequena aplicação de cadastro de tarefas feita usando JS puro e manipulação da DOM através da DOM API
