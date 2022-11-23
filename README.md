@@ -1,4 +1,4 @@
-# Javascript-Basics
+# Javascript-basics
 Material baseado no curso da Geek University na Udemy:
 
 # https://www.udemy.com/course/curso-de-programacao-em-javascript-do-basico-ao-avancado
