@@ -14,4 +14,3 @@ var cliente = {
 }
 
 imprime(cliente)
-
