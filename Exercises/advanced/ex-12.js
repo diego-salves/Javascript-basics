@@ -1,11 +1,11 @@
-let clientes = [
-    { nome: "Fernanda Piereti", idade: 32, empresa: "Google" },
-    { nome: "Juliana Paz", idade: 29, empresa: "Globo" },
-    { nome: "Maria Silva", idade: 33, empresa: "Google" },
-];
+let lista = [2, 4, 6, 8, 10];
 
+/*
+lista.map(function(valor) {
+    return valor + 3;
+});
+*/ 
 
-let show = clientes.forEach((element)=> {return element.idade = element.idade * 2});
-let b = clientes.filter((element) => element.idade > 60);
-console.log(clientes);
-console.log(b);
+let show = lista.map((valor)=> valor + 3);
+
+console.log(show)
